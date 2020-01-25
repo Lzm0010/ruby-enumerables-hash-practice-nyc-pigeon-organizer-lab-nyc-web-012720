@@ -4,6 +4,8 @@ def nyc_pigeon_organizer(data)
   
   #get all pigeon names from arrays and convert to a key and the previous key to the value at the same time
   attributes.each{ |attribute|
-    
+    data[attribute].each_pair{|key, value|
+      
+    }
   }
 end
