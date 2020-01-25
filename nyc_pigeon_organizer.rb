@@ -16,8 +16,6 @@ def nyc_pigeon_organizer(data)
         else
           pigeon_list[name] = {attribute => [key.to_s]}
         end
-        
-        puts pigeon_list
       }
     }
   }
