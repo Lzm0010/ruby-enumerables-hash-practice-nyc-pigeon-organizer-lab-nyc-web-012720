@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
   attributes.each{ |attribute|
     data[attribute].each_pair{|key, value|
       puts "key: #{key} and value: #{value}."
-      value.map{||}
+      value.map{|name|
+        
+      }
     }
   }
 end
