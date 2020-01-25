@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
           result[name][attribute] << key
         else
           result[name][attribute] = [key]
+        end
       }
     }
   }
