@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
       puts "key: #{key} and value: #{value}."
       value.map{|name|
         if result[name]
-          result[name][attribute]
+          result[name][attribute] << value
+        else
+          result[name]
       }
     }
   }
