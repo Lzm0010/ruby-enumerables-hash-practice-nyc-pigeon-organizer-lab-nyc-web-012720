@@ -8,8 +8,8 @@ def nyc_pigeon_organizer(data)
     data[attribute].each_pair{|key, value|
       puts "key: #{key} and value: #{value}."
       value.map{|name|
-        if result[name]
-          result[name][attribute] << key
+        if pigeon_list[name]
+          pigeon_list[name][attribute] << key
         else
           result[name][attribute] = [key]
         end
