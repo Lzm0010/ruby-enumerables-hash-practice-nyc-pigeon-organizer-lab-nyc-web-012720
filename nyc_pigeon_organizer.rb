@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       value.map{|name|
         if pigeon_list[name]
           pigeon_list[name][attribute] = 
-        puts pigeon_list
+        else
         #   pigeon_list[name][attribute] << key
         # else
         #   pigeon_list[name][attribute] = [key]
