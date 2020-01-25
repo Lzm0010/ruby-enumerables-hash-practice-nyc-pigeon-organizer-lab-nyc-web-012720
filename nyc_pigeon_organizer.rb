@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   attributes.each{ |attribute|
     data[attribute].each_pair{|key, value|
       value.map{|name|
-        if
+        if pigeon_list[name]
         pigeon_list[name] = attribute
         puts pigeon_list
         #   pigeon_list[name][attribute] << key
