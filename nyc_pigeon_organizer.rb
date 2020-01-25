@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
             pigeon_list[name][attribute] = [key.to_s]
           end
         else
-          pigeon_list[name] = {attribute => [key]}
+          pigeon_list[name] = {attribute => [key.to_s]}
         end
         
         puts pigeon_list
