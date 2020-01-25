@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][attribute] = 
         else
           pigeon_list[name] = {attribute => key}
+        end
         #   pigeon_list[name][attribute] << key
         # else
         #   pigeon_list[name][attribute] = [key]
