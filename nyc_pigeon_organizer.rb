@@ -17,4 +17,5 @@ def nyc_pigeon_organizer(data)
     }
   }
   puts pigeon_list
+  pigeon_list
 end
